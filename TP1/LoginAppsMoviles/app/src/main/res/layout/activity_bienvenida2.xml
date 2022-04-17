@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00FFFFFF"
+    tools:context=".Bienvenida">
+
+  <TextView
+      android:id="@+id/textView6"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="32dp"
+      android:layout_marginTop="32dp"
+      android:layout_marginEnd="32dp"
+      android:text="¡Bienvenido a la app, Juan Torres!"
+      android:textAlignment="center"
+      android:textSize="30sp"
+      android:textStyle="bold"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <TextView
+      android:id="@+id/textView7"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="32dp"
+      android:layout_marginTop="32dp"
+      android:layout_marginEnd="32dp"
+      android:text="Plataforma utilizada:"
+      android:textSize="24sp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+  <RadioGroup
+      android:id="@+id/radioGroup"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="32dp"
+      android:layout_marginTop="8dp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/textView7"
+      tools:ignore="MissingConstraints">
+
+    <RadioButton
+        android:id="@+id/radioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:clickable="true"
+        android:minHeight="48dp"
+        android:text="Android"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:minHeight="48dp"
+        android:text="IOS"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioButton" />
+
+
+  </RadioGroup>
+
+  <ImageView
+      android:id="@+id/imageView2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="32dp"
+      android:layout_marginEnd="32dp"
+      android:visibility="invisible"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/textView7"
+      app:srcCompat="@android:mipmap/sym_def_app_icon" />
+
+  <ImageView
+      android:id="@+id/imageView4"
+      android:layout_width="49dp"
+      android:layout_height="54dp"
+      android:layout_marginTop="32dp"
+      android:layout_marginEnd="32dp"
+      android:background="@android:color/transparent"
+      android:backgroundTint="#00FFFFFF"
+      android:visibility="invisible"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/textView7"
+      app:srcCompat="@drawable/apple3" />
+
+  <TextView
+      android:id="@+id/textView8"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="32dp"
+      android:layout_marginTop="16dp"
+      android:text="Preferencias:"
+      android:textSize="24sp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+  <RadioGroup
+      android:id="@+id/radioGroup2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="32dp"
+      android:layout_marginTop="16dp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.2"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/textView8">
+
+    <RadioButton
+        android:id="@+id/radioButton13"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Programacion"
+        android:textSize="20sp" />
+
+    <RadioButton
+        android:id="@+id/radioButton12"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:minHeight="48dp"
+        android:text="Redes"
+        android:textSize="20sp" />
+
+    <RadioButton
+        android:id="@+id/radioButton11"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:minHeight="48dp"
+        android:text="Seguridad"
+        android:textSize="20sp" />
+
+    <RadioButton
+        android:id="@+id/radioButton10"
+        android:layout_width="212dp"
+        android:layout_height="65dp"
+        android:text="Hardware"
+        android:textSize="20sp" />
+
+    <RadioButton
+        android:id="@+id/radioButton9"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:text="Otra"
+        android:textSize="20sp"
+        tools:ignore="TouchTargetSizeCheck" />
+  </RadioGroup>
+
+  <EditText
+      android:id="@+id/editTextTextPreference"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="100dp"
+      android:layout_marginTop="274dp"
+      android:ems="10"
+      android:hint="Ingrese aquí..."
+      android:inputType="textPersonName"
+      app:layout_constraintStart_toStartOf="@+id/radioGroup2"
+      app:layout_constraintTop_toBottomOf="@+id/textView8"
+      tools:visibility="invisible" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
