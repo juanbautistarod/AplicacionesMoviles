@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">appBDtp2</string>
+    <string name="cargar_capital">Cargar Capital</string>
+    <string name="ciudad">Ciudad:</string>
+    <string name="pais">Pais:</string>
+    <string name="ingrese_nombre_de_la_ciudad">Ingrese nombre de la ciudad...</string>
+    <string name="poblaci_n">Población:</string>
+    <string name="ingrese_poblaci_n_de_la_ciudad">Ingrese población de la ciudad...</string>
+    <string name="cargar_ciudad">Cargar Ciudad</string>
+    <string name="volver_al_menu">Volver al Menu</string>
+    <string name="consultar_capital">Consultar Capital</string>
+    <string name="ingrese_nombre">Ingrese nombre...</string>
+    <string name="no_se_ingres_ninguna_ciudad">No se ingresó ninguna ciudad.</string>
+    <string name="volver_al_menu2">Volver al menu</string>
+    <string name="buscar">BUSCAR</string>
+    <string name="borrar_capital">Borrar Capital</string>
+    <string name="ingrese_nombre_de_la_ciudad_a_eliminar">Ingrese nombre de la ciudad a eliminar...</string>
+    <string name="borrar">Borrar</string>
+    <string name="vover_al_menu">Vover al menu</string>
+    <string name="borrado_general">Borrado General</string>
+    <string name="borrar_todas_las_ciudades">Borrar todas las ciudades</string>
+    <string name="modificar_poblacion">Modificar Poblacion</string>
+    <string name="nueva_poblacion">Nueva poblacion:</string>
+    <string name="_0">0</string>
+    <string name="modificar">Modificar</string>
+    <string name="capitales_del_mundo">Capitales del Mundo</string>
+    <string name="consultar_capital2">CONSULTAR CAPITAL</string>
+    <string name="borrar_capital2">BORRAR CAPITAL</string>
+    <string name="borrar_todas">BORRAR TODAS</string>
+    <string name="modificar_poblacion2">MODIFICAR POBLACION</string>
+    <string name="img_map">IMG_MAP</string>
+    <string-array name="countries">
+        <item>Argentina</item>
+        <item>Estados Unidos</item>
+        <item>Inglaterra</item>
+    </string-array>
+
+</resources>
+

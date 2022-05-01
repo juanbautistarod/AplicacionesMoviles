@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Bautista/AndroidStudioProjects/appBDtp2/app/src/main/res/layout/activity_cargar_capital.xml" value="0.33" />
+        <entry key="..\:/Users/Bautista/AndroidStudioProjects/appBDtp2/app/src/main/res/layout/activity_consultar_capital.xml" value="0.3759057971014493" />
+        <entry key="..\:/Users/Bautista/AndroidStudioProjects/appBDtp2/app/src/main/res/layout/activity_eliminar_capital.xml" value="0.33" />
+        <entry key="..\:/Users/Bautista/AndroidStudioProjects/appBDtp2/app/src/main/res/layout/activity_eliminar_todas.xml" value="0.3759057971014493" />
+        <entry key="..\:/Users/Bautista/AndroidStudioProjects/appBDtp2/app/src/main/res/layout/activity_main.xml" value="0.2773556231003039" />
+        <entry key="..\:/Users/Bautista/AndroidStudioProjects/appBDtp2/app/src/main/res/layout/activity_modificar_poblacion.xml" value="0.3759057971014493" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
