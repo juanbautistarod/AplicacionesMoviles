@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7A7575"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/turnOn"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="240dp"
+        android:layout_marginEnd="147dp"
+        android:background="@drawable/green_round"
+        android:src="@drawable/ic_power" />
+
+    <ImageView
+        android:id="@+id/turnOff"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="240dp"
+        android:layout_marginEnd="147dp"
+        android:background="@drawable/red_round"
+        android:elevation="10dp"
+        android:src="@drawable/ic_power"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/shakeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/turnOn"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="74dp"
+        android:layout_marginBottom="249dp"
+        android:text="Vibrate"
+        app:cornerRadius="8dp" />
+
+    <Button
+        android:id="@+id/playButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/turnOn"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="149dp"
+        android:layout_marginBottom="175dp"
+        android:text="Play"
+        app:cornerRadius="8dp" />
+
+
+</RelativeLayout>
